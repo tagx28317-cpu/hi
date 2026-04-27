@@ -1,0 +1,850 @@
+{
+  "version": 1,
+  "character": "Leon",
+  "weaponModel": "game/characters/Leon/RequiemGun.fbx",
+  "drawDuration": 0.36,
+  "holsterDuration": 0.28,
+  "fireDuration": 0.22,
+  "sequences": {
+    "draw": [
+      {
+        "time": 0,
+        "anchor": "hips",
+        "position": [
+          0.70003,
+          2.4162,
+          0.28602
+        ],
+        "rotation": [
+          -3.04159,
+          -1.49159,
+          -2.94159
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "time": 0.48,
+        "anchor": "player",
+        "position": [
+          0.88,
+          4.96,
+          0.28
+        ],
+        "rotation": [
+          0.08,
+          -1.12,
+          -0.25
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "time": 1,
+        "anchor": "rightHand",
+        "position": [
+          0.02,
+          -0.06,
+          -0.08
+        ],
+        "rotation": [
+          0,
+          -1.57,
+          0.03
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "steady": [
+      {
+        "time": 0,
+        "anchor": "rightHand",
+        "position": [
+          0.02,
+          -0.06,
+          -0.08
+        ],
+        "rotation": [
+          0,
+          -1.57,
+          0.03
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "time": 1,
+        "anchor": "rightHand",
+        "position": [
+          0.02,
+          -0.06,
+          -0.08
+        ],
+        "rotation": [
+          0,
+          -1.57,
+          0.03
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "holster": [
+      {
+        "time": 0,
+        "anchor": "rightHand",
+        "position": [
+          0.10765,
+          0.37443,
+          -0.0878
+        ],
+        "rotation": [
+          1.54816,
+          -0.22756,
+          2.98144
+        ],
+        "scale": [
+          1.3647,
+          1.3647,
+          1.3647
+        ],
+        "poseOffsets": {
+          "leftArm": {
+            "position": [
+              0.00706,
+              0.00308,
+              0.03014
+            ],
+            "rotation": [
+              -0.082,
+              0.04444,
+              0.01634
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "time": 0.5187416141775589,
+        "anchor": "rightHand",
+        "position": [
+          0.10765,
+          0.37443,
+          -0.0878
+        ],
+        "rotation": [
+          1.54816,
+          -0.22756,
+          2.98144
+        ],
+        "scale": [
+          1.3647,
+          1.3647,
+          1.3647
+        ],
+        "poseOffsets": {
+          "leftArm": {
+            "position": [
+              0.00706,
+              0.00308,
+              0.03014
+            ],
+            "rotation": [
+              -0.082,
+              0.04444,
+              0.01634
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "time": 1,
+        "anchor": "rightHand",
+        "position": [
+          0.10765,
+          0.37443,
+          -0.0878
+        ],
+        "rotation": [
+          1.54816,
+          -0.22756,
+          2.98144
+        ],
+        "scale": [
+          1.3647,
+          1.3647,
+          1.3647
+        ],
+        "poseOffsets": {
+          "leftArm": {
+            "position": [
+              0.00706,
+              0.00308,
+              0.03014
+            ],
+            "rotation": [
+              -0.082,
+              0.04444,
+              0.01634
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      }
+    ],
+    "fire": [
+      {
+        "time": 0,
+        "anchor": "rightHand",
+        "position": [
+          0.10765,
+          0.37443,
+          -0.0878
+        ],
+        "rotation": [
+          1.54816,
+          -0.22756,
+          2.98144
+        ],
+        "scale": [
+          1.3647,
+          1.3647,
+          1.3647
+        ],
+        "poseOffsets": {
+          "rightHand": {
+            "position": [
+              0.00323,
+              0.00175,
+              0.0114
+            ],
+            "rotation": [
+              -0.10628,
+              0.02655,
+              0.02712
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "leftHand": {
+            "position": [
+              0.00434,
+              0.00974,
+              0.00266
+            ],
+            "rotation": [
+              -0.10368,
+              0.04215,
+              0.01393
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "rightForeArm": {
+            "position": [
+              0.06228,
+              -0.03053,
+              -0.00106
+            ],
+            "rotation": [
+              -0.01986,
+              -0.06504,
+              0.22002
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "leftForeArm": {
+            "position": [
+              0.00391,
+              0.02143,
+              0.02291
+            ],
+            "rotation": [
+              0.00861,
+              0.22903,
+              -0.13488
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "leftArm": {
+            "position": [
+              0.00706,
+              0.00308,
+              0.03014
+            ],
+            "rotation": [
+              -0.13865,
+              0.07475,
+              -0.01672
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "leftShoulder": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0.00374,
+              0.01051,
+              -0.05512
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "interpolation": "step",
+        "transitionMode": "snap"
+      },
+      {
+        "time": 0.2,
+        "anchor": "rightHand",
+        "position": [
+          0.10759,
+          0.37444,
+          -0.08781
+        ],
+        "rotation": [
+          1.54815,
+          -0.22751,
+          2.98146
+        ],
+        "scale": [
+          1.3647,
+          1.3647,
+          1.3647
+        ],
+        "poseOffsets": {
+          "rightHand": {
+            "position": [
+              0.00188,
+              0.00102,
+              0.00664
+            ],
+            "rotation": [
+              -0.06184,
+              0.01582,
+              0.01546
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "leftHand": {
+            "position": [
+              0.00253,
+              0.00568,
+              0.00155
+            ],
+            "rotation": [
+              -0.06033,
+              0.02474,
+              0.00758
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "rightForeArm": {
+            "position": [
+              0.0719,
+              -0.03863,
+              -0.00215
+            ],
+            "rotation": [
+              -0.0231,
+              -0.08491,
+              0.28476
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "leftForeArm": {
+            "position": [
+              0.01927,
+              0.03015,
+              0.02121
+            ],
+            "rotation": [
+              -0.06775,
+              0.25263,
+              -0.15567
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "leftArm": {
+            "position": [
+              0.00706,
+              0.00308,
+              0.03014
+            ],
+            "rotation": [
+              -0.11512,
+              0.06188,
+              -0.00313
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "leftShoulder": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0.00211,
+              0.00615,
+              -0.03212
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "interpolation": "easeOutQuint"
+      },
+      {
+        "time": 0.52,
+        "anchor": "rightHand",
+        "position": [
+          0.10762,
+          0.37444,
+          -0.08781
+        ],
+        "rotation": [
+          1.54816,
+          -0.22753,
+          2.98145
+        ],
+        "scale": [
+          1.3647,
+          1.3647,
+          1.3647
+        ],
+        "poseOffsets": {
+          "rightHand": {
+            "position": [
+              0.00094,
+              0.00051,
+              0.00332
+            ],
+            "rotation": [
+              -0.03092,
+              0.00791,
+              0.00773
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "leftHand": {
+            "position": [
+              0.00127,
+              0.00284,
+              0.00078
+            ],
+            "rotation": [
+              -0.03017,
+              0.01237,
+              0.00379
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "rightForeArm": {
+            "position": [
+              0.03595,
+              -0.01932,
+              -0.00108
+            ],
+            "rotation": [
+              -0.01155,
+              -0.04246,
+              0.14238
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "leftForeArm": {
+            "position": [
+              0.00964,
+              0.01508,
+              0.01061
+            ],
+            "rotation": [
+              -0.03388,
+              0.12632,
+              -0.07784
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "leftArm": {
+            "position": [
+              0.00706,
+              0.00308,
+              0.03014
+            ],
+            "rotation": [
+              -0.09856,
+              0.05316,
+              0.00661
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "leftShoulder": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0.00106,
+              0.00308,
+              -0.01606
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "interpolation": "easeOutCubic"
+      },
+      {
+        "time": 0.9,
+        "anchor": "rightHand",
+        "position": [
+          0.10765,
+          0.37443,
+          -0.0878
+        ],
+        "rotation": [
+          1.54816,
+          -0.22756,
+          2.98144
+        ],
+        "scale": [
+          1.3647,
+          1.3647,
+          1.3647
+        ],
+        "poseOffsets": {
+          "leftArm": {
+            "position": [
+              0.00706,
+              0.00308,
+              0.03014
+            ],
+            "rotation": [
+              -0.082,
+              0.04444,
+              0.01634
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      }
+    ],
+    "custom": [
+      {
+        "time": 0,
+        "anchor": "rightHand",
+        "position": [
+          0.04595,
+          0.3699,
+          -0.11605
+        ],
+        "rotation": [
+          1.4181,
+          0.08522,
+          2.823
+        ],
+        "scale": [
+          1.3647,
+          1.3647,
+          1.3647
+        ],
+        "poseOffsets": {
+          "rightHand": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              -0.00067,
+              -0.00268,
+              0.0282
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "leftHand": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              -0.05601,
+              0.43122,
+              -0.70656
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "rightForeArm": {
+            "position": [
+              -0.17298,
+              0.0007,
+              -0.14596
+            ],
+            "rotation": [
+              -0.47069,
+              -0.63035,
+              2.32724
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "leftForeArm": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              -2.13617,
+              0.99264,
+              0.52781
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "rightArm": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              -0.28114,
+              0.00138,
+              0.0566
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "leftArm": {
+            "position": [
+              0.00706,
+              0.00308,
+              0.03014
+            ],
+            "rotation": [
+              -0.87963,
+              -0.46418,
+              -0.5756
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "rightShoulder": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0.17594,
+              -0.03183,
+              -0.00261
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "leftShoulder": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              -0.15746,
+              -0.03192,
+              -0.02367
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "spine": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              -0.00064,
+              -0.00001,
+              0.00013
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "particles": [
+    {
+      "id": "muzzle_flash",
+      "name": "Muzzle Flash",
+      "enabled": true,
+      "color": "#ffd892",
+      "count": 5,
+      "size": 0.7,
+      "spread": 0.28,
+      "speed": 6,
+      "life": 0.08,
+      "duration": 0.03,
+      "offset": [
+        0,
+        0.02,
+        -0.34
+      ]
+    },
+    {
+      "id": "muzzle_smoke",
+      "name": "Muzzle Smoke",
+      "enabled": true,
+      "color": "#d8d8d8",
+      "count": 3,
+      "size": 0.42,
+      "spread": 0.18,
+      "speed": 1.1,
+      "life": 0.34,
+      "duration": 0.18,
+      "offset": [
+        0,
+        0.03,
+        -0.3
+      ]
+    }
+  ]
+}
